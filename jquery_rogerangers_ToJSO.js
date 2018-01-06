@@ -1,5 +1,5 @@
 // https://github.com/rogerangers/Convert-Form-Html-To-Javascript-Object
-// autor: Fabio Rogerio dos Santos
+// autor: Fabio Rogerio dos Santos 2016
 
 ; (function () {
 
