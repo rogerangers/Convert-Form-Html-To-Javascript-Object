@@ -74,4 +74,71 @@ Saida:
   ]
 }
 
+-------------------------------------------
+
+- Outro Exemplo ambos anteriores juntos:
+
+ `<form id="container">`   
  
+ `<div data-name-object-list="Pessoas"> `   
+ 
+ `    <div data-name-object="Pessoas">`   
+
+`         <input type="text" name="nome" value="fabio" /> `   
+ `        <input type="text" name="Idade" value="38" /> `   
+ 
+ `   <div data-name-object-list="telefone">`   
+ 
+ `   <input type="text" name="telefone" value=11-11111111" />`   
+ `   <input type="text" name="telefone" value="" />`   
+ `   <input type="text" name="telefone" value="15-7777777" /> `   
+ 
+ `  </div>`   
+ 
+ `    </div>`   
+ 
+ `    <div data-name-object="Pessoas">`   
+
+`        <input type="text" name="nome" value="kelly" /> `   
+  `       <input type="text" name="Idade" value="27" />     `      
+
+`   <div data-name-object-list="telefone">`   
+ 
+ `   <input type="text" name="telefone" value=11-5555555" />`   
+ `   <input type="text" name="telefone" value="55-444444" />`   
+ `   <input type="text" name="telefone" value="12-3333333" /> `   
+ 
+ `  </div>`   
+ 
+`    </div>`   
+
+  ` </div>`   
+ 
+ `</form> `   
+ 
+ $('#container').toJSO();
+
+Saida:
+
+{
+  "Pessoas": [
+    {
+      "nome": "fabio",
+      "Idade": "39",
+      "telefone" : [
+         "11-11111111",
+         null,
+         "15-7777777"
+       ]     
+    },
+    {
+      "nome": "kelly",
+      "Idade": "27",
+      "telefone" : [
+         "11-5555555",
+         "55-444444",
+         "12-3333333"
+       ] 
+    }
+  ]
+}
