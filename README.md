@@ -123,23 +123,24 @@ Saida: Uma lista de objetos Pessoa com dua propriedades primitivas, nome e Idade
 
 `{ `   
 `  "Pessoas": [ `   
-    {
-      "nome": "fabio",
-      "Idade": "39",
-      "telefone" : [
-         "11-11111111",
-         null,
-         "15-7777777"
-       ]     
-    },
-    {
-      "nome": "kelly",
-      "Idade": "27",
-      "telefone" : [
-         "11-5555555",
-         "55-444444",
-         "12-3333333"
-       ] 
-    }
-  ]
-}
+`    {`   
+`      "nome": "fabio",`   
+`      "Idade": "39",`   
+`      "telefone" : [`   
+`         "11-11111111",`   
+`         null,`   
+`         "15-7777777"`   
+`       ]     `   
+`    },`   
+`    {`   
+`      "nome": "kelly",`   
+`      "Idade": "27",`   
+`      "telefone" :`   
+`      [`   
+`         "11-5555555",`   `   
+`         "55-444444",`   
+`         "12-3333333"`   
+`       ] `   
+`    }`      
+`  ]`   
+`}`   
