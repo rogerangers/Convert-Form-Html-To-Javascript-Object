@@ -60,7 +60,7 @@ Atributo "data-name-object" se refere a um objeto, mais lista com do exemplo ant
  
 $('#container').toJSO();
 
-Saida: Uma lsita de objetos Pessoa com dua propriedades primitivas cada:
+Saida: Uma lista de objetos Pessoa com dua propriedades primitivas cada:
 
 {
   "Pessoa": [
