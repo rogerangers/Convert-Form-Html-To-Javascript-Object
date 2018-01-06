@@ -36,7 +36,8 @@ Saida: Uma lista de telefone:
 
 - Outro Exemplo de objetos:
 
-Atributo "data-name-object" se refere a um objeto, mais lista com do exemplo anterior:
+Atributo "data-name-object" se refere a um objeto.
+Neste exemplo iremos incluir tambem lista do exemplo anterior:
 
  `<form id="container">`   
  
@@ -80,7 +81,7 @@ Saida: Uma lista de objetos Pessoa com dua propriedades primitivas cada:
 
 -------------------------------------------
 
-- Outro Exemplo ambos anteriores juntos:
+- Outro Exemplo, ambos os exemplos anteriores juntos:
 
  `<form id="container">`   
  
