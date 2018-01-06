@@ -5,11 +5,15 @@
   Exemplo formulario Lista de Itens primitivos:
 
  `<form id="teste-lista-telefone">`   
- `   <div data-name-object-list="telefone">`   
+
+`   <div data-name-object-list="telefone">`   
+ 
  `   <input type="text" name="telefone" value=11-99999999" />`   
  `   <input type="text" name="telefone" value="" />`   
  `   <input type="text" name="telefone" value="12-88888888" /> `   
+ 
  `  </div>`   
+ 
  `</form> `   
 
 
