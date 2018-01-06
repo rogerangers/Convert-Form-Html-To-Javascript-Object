@@ -19,15 +19,16 @@
 
 $('#container').toJSO();
 
-Saida:
+Saida  lista de telefone:
 
 {
- "telefone" : [
+"telefone" : [
  "11-99999999",
  null,
  "12-88888888"
  ]
 }
+
 
 -------------------------------------------
 
@@ -37,16 +38,16 @@ Saida:
 
  `<form id="container">`   
  
- `<div data-name-object-list="Pessoas"> `   
+ `<div data-name-object-list="Pessoa"> `   
  
- `    <div data-name-object="Pessoas">`   
+ `    <div data-name-object="Pessoa">`   
 
 `         <input type="text" name="nome" value="fabio" /> `   
  `        <input type="text" name="Idade" value="38" /> `   
  
  `    </div>`   
  
- `    <div data-name-object="Pessoas">`   
+ `    <div data-name-object="Pessoa">`   
 
 `        <input type="text" name="nome" value="kelly" /> `   
   `       <input type="text" name="Idade" value="27" />     `      
@@ -59,10 +60,10 @@ Saida:
  
  $('#container').toJSO();
 
-Saida:
+Saida uma lsita de objetos Pessoa com dua propriedades primitivas cada:
 
 {
-  "Pessoas": [
+  "Pessoa": [
     {
       "nome": "fabio",
       "Idade": "39"
@@ -80,9 +81,9 @@ Saida:
 
  `<form id="container">`   
  
- `<div data-name-object-list="Pessoas"> `   
+ `<div data-name-object-list="Pessoa"> `   
  
- `    <div data-name-object="Pessoas">`   
+ `    <div data-name-object="Pessoa">`   
 
 `         <input type="text" name="nome" value="fabio" /> `   
  `        <input type="text" name="Idade" value="38" /> `   
@@ -97,7 +98,7 @@ Saida:
  
  `    </div>`   
  
- `    <div data-name-object="Pessoas">`   
+ `    <div data-name-object="Pessoa">`   
 
 `        <input type="text" name="nome" value="kelly" /> `   
   `       <input type="text" name="Idade" value="27" />     `      
@@ -118,7 +119,7 @@ Saida:
  
  $('#container').toJSO();
 
-Saida:
+Saida uma lsita de objetos Pessoa com dua propriedades primitivas alem de uma propriedade de lista de telefone com propriedades de primitivas:
 
 {
   "Pessoas": [
