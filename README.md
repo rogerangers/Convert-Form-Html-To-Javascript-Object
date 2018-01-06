@@ -119,7 +119,7 @@ Saida uma lsita de objetos Pessoa com dua propriedades primitivas cada:
  
  $('#container').toJSO();
 
-Saida uma lsita de objetos Pessoa com dua propriedades primitivas alem de uma propriedade de lista de telefone com propriedades de primitivas:
+Saida: Uma lista de objetos Pessoa com dua propriedades primitivas, nome e Idade alem de uma propriedade telefone que detem uma de lista de telefone valores primitivos:
 
 {
   "Pessoas": [
