@@ -62,18 +62,19 @@ $('#container').toJSO();
 
 Saida: Uma lista de objetos Pessoa com dua propriedades primitivas cada:
 
-{
-  "Pessoa": [
-    {
-      "nome": "fabio",
-      "Idade": "39"
-    },
-    {
-      "nome": "kelly",
-      "Idade": "27"
-    }
-  ]
-}
+{`   
+`  "Pessoa":`   
+`  [ `   
+`    { `   
+`      "nome": "fabio", `   
+`      "Idade": "39" `   
+`    }, `   
+`    { `   
+`      "nome": "kelly", `   
+`      "Idade": "27" `   
+`    }`   
+`  ]`   
+`}`   
 
 -------------------------------------------
 
@@ -137,7 +138,7 @@ Saida: Uma lista de objetos Pessoa com dua propriedades primitivas, nome e Idade
 `      "Idade": "27",`   
 `      "telefone" :`   
 `      [`   
-`         "11-5555555",`   `   
+`         "11-5555555",`   
 `         "55-444444",`   
 `         "12-3333333"`   
 `       ] `   
