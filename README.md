@@ -1,12 +1,14 @@
 # Convert-Form-Html-To-Javascript-Object
 
-- Exemplo formulario Lista de Itens primitivos:
+- Atributo "data-name-object-list" se refere a lista de itens
+
+  Exemplo formulario Lista de Itens primitivos:
 
  `<form id="teste-lista-telefone">`   
- `     <div data-name-object-list="telefone">`   
+ `   <div data-name-object-list="telefone">`   
  `   <input type="text" name="telefone" value=11-99999999" />`   
  `   <input type="text" name="telefone" value="" />`   
- `    <input type="text" name="telefone" value="12-88888888" /> `   
+ `   <input type="text" name="telefone" value="12-88888888" /> `   
  `  </div>`   
  `</form> `   
 
@@ -23,7 +25,9 @@ Saida:
  ]
 }
 
-- Outro Exemplo lista de objetos:
+- Outro Exemplo de objetos:
+
+- Atributo "data-name-object" se refere a um objeto.
 
  `<form id="teste-lista-Pessoas">`   
  `<div data-name-object-list="Pessoas"> `   
