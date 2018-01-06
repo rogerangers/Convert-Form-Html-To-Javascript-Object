@@ -2,7 +2,7 @@
 
 - Atributo "data-name-object-list" se refere a lista de itens
 
-  Exemplo formulario Lista de Itens primitivos:
+Exemplo formulario Lista de Itens primitivos:
 
  `<form id="container">`   
 
@@ -19,7 +19,7 @@
 
 $('#container').toJSO();
 
-Saida  lista de telefone:
+Saida: Uma lista de telefone:
 
 {
 "telefone" : [
@@ -34,7 +34,7 @@ Saida  lista de telefone:
 
 - Outro Exemplo de objetos:
 
- Atributo "data-name-object" se refere a um objeto, mais lista com do exemplo anterior
+Atributo "data-name-object" se refere a um objeto, mais lista com do exemplo anterior
 
  `<form id="container">`   
  
@@ -58,9 +58,9 @@ Saida  lista de telefone:
  
  `</form> `   
  
- $('#container').toJSO();
+$('#container').toJSO();
 
-Saida uma lsita de objetos Pessoa com dua propriedades primitivas cada:
+Saida: Uma lsita de objetos Pessoa com dua propriedades primitivas cada:
 
 {
   "Pessoa": [
