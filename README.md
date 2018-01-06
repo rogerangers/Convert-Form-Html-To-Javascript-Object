@@ -33,7 +33,7 @@ Saida:
 
 - Outro Exemplo de objetos:
 
- Atributo "data-name-object" se refere a um objeto.
+ Atributo "data-name-object" se refere a um objeto, mais lista com do exemplo anterior
 
  `<form id="teste-lista-pessoas">`   
  
