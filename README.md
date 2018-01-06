@@ -31,7 +31,8 @@ Saida:
 
  Atributo "data-name-object" se refere a um objeto.
 
- `<form id="teste-lista-Pessoas">`   
+ `<form id="teste-lista-pessoas">`   
+ 
  `<div data-name-object-list="Pessoas"> `   
  `    <div data-name-object="Pessoas">`   
  `         <input type="text" name="nome" value="fabio" /> `   
@@ -44,7 +45,7 @@ Saida:
  `</div>`   
  `</form> `   
  
- $('#teste-lista-Pessoas').toJSO();
+ $('#teste-lista-pessoas').toJSO();
 
 Saida:
 
