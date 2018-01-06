@@ -25,9 +25,11 @@ Saida:
  ]
 }
 
+-------------------------------------------
+
 - Outro Exemplo de objetos:
 
-- Atributo "data-name-object" se refere a um objeto.
+ Atributo "data-name-object" se refere a um objeto.
 
  `<form id="teste-lista-Pessoas">`   
  `<div data-name-object-list="Pessoas"> `   
