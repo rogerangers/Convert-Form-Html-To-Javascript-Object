@@ -4,7 +4,7 @@
 
   Exemplo formulario Lista de Itens primitivos:
 
- `<form id="teste-lista-telefone">`   
+ `<form id="container">`   
 
 `   <div data-name-object-list="telefone">`   
  
@@ -17,7 +17,7 @@
  `</form> `   
 
 
-$('#teste-lista-telefone').toJSO();
+$('#container').toJSO();
 
 Saida:
 
@@ -35,7 +35,7 @@ Saida:
 
  Atributo "data-name-object" se refere a um objeto, mais lista com do exemplo anterior
 
- `<form id="teste-lista-pessoas">`   
+ `<form id="container">`   
  
  `<div data-name-object-list="Pessoas"> `   
  
@@ -57,7 +57,7 @@ Saida:
  
  `</form> `   
  
- $('#teste-lista-pessoas').toJSO();
+ $('#container').toJSO();
 
 Saida:
 
