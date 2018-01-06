@@ -23,7 +23,7 @@ Saida: Uma lista de telefone:
 
 
 ` { `   
-` "telefone" :
+` "telefone" : `   
 ` [ `   
 ` "11-99999999",`   
 `  null,`   
