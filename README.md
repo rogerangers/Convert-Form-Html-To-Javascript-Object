@@ -121,8 +121,8 @@ Saida: Uma lista de objetos Pessoa com dua propriedades primitivas cada:
 
 Saida: Uma lista de objetos Pessoa com dua propriedades primitivas, nome e Idade alem de uma propriedade telefone que detem uma de lista de telefone valores primitivos:
 
-{
-  "Pessoas": [
+`{ `   
+`  "Pessoas": [ `   
     {
       "nome": "fabio",
       "Idade": "39",
