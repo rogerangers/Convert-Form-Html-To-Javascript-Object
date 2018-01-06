@@ -15,6 +15,10 @@ $('#teste-lista-telefone').toJSO();
 
 Saida:
 
-{ "telefone" :
- ["11-58254636", null,"xxx"]
+{
+ "telefone" : [
+ "11-99999999",
+ null,
+ "12-88888888"
+ ]
 }
