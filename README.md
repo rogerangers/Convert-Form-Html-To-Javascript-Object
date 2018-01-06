@@ -36,7 +36,7 @@ Saida: Uma lista de telefone:
 
 - Outro Exemplo de objetos:
 
-Atributo "data-name-object" se refere a um objeto, mais lista com do exemplo anterior
+Atributo "data-name-object" se refere a um objeto, mais lista com do exemplo anterior:
 
  `<form id="container">`   
  
