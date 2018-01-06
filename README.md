@@ -38,15 +38,19 @@ Saida:
  `<form id="teste-lista-pessoas">`   
  
  `<div data-name-object-list="Pessoas"> `   
+ 
  `    <div data-name-object="Pessoas">`   
  `         <input type="text" name="nome" value="fabio" /> `   
  `        <input type="text" name="Idade" value="38" /> `   
  `    </div>`   
+ 
  `    <div data-name-object="Pessoas">`   
   `        <input type="text" name="nome" value="kelly" /> `   
   `       <input type="text" name="Idade" value="27" />     `      
  `    </div>`   
- `</div>`   
+
+  ` </div>`   
+ 
  `</form> `   
  
  $('#teste-lista-pessoas').toJSO();
