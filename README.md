@@ -21,13 +21,14 @@ $('#container').toJSO();
 
 Saida: Uma lista de telefone:
 
-{
-"telefone" : [
- "11-99999999",
- null,
- "12-88888888"
- ]
-}
+`{`   
+`"telefone" :
+`[`   
+` "11-99999999",`   
+` null,`   
+` "12-88888888"`   
+` ]`   
+`}`   
 
 
 -------------------------------------------
@@ -62,7 +63,7 @@ $('#container').toJSO();
 
 Saida: Uma lista de objetos Pessoa com dua propriedades primitivas cada:
 
-{`   
+` {`   
 `  "Pessoa":`   
 `  [ `   
 `    { `   
